@@ -4,11 +4,11 @@
     box-sizing: border-box;
 }
 
-ul {
+* ul {
     list-style: none;
 }
 body {
-    background-image: url(./assets/bg3.jpg);
+    background-image: url(./assets/bg3\ 1494x630px.jpg);
     background-position: top center;
     background-size: 100% auto;
     background-repeat: no-repeat;
@@ -20,7 +20,7 @@ body * {
 }
 header{
     padding-top: 32px;
-    height: calc(120px + 32px);
+    height: calc(120px + 60px);
 }
 header div {
     width: 120px;
@@ -30,7 +30,7 @@ header div {
     border-radius: 50%;
 
     display: flex;
-    padding: 4px;
+    padding: 6px;
 
     transition: transform .3s;
 
@@ -58,6 +58,10 @@ section {
 
 }
 section div  {
+    background-image: url(./assets/bg\ \ div\ fundo.jpg);
+    background-position: right;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
     background-color: #2a2634;
     padding: 32px;
     padding-top: 24px;
@@ -69,7 +73,7 @@ section  h2 {
 }
 section p {
     letter-spacing: -0.18px;
-    color: #a8a8af;
+    color: #d1d1d6;
 }
 section ul {
     display: flex;
@@ -93,7 +97,7 @@ section ul li:hover {
 .movies-list img {
     border-radius: 50%;
     width: 70px;
-    border: 1px solid #443e54;
+    border: 1px solid #160c31;
 }
 /*animation*/
 
@@ -104,7 +108,7 @@ main section {
     animation: fromBottom .7s backwards;
 }
 main section:nth-child(1){
-    animation-delay: 0;
+    animation-delay: .2;
 }
 main section:nth-child(2){
     animation-delay: .4s;
